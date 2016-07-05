@@ -1,0 +1,17 @@
+//must input it on empty game object
+
+using UnityEngine;
+using System.Collections;
+
+public class DeleteAllPrefs : MonoBehaviour {
+
+
+	void Start () {
+	
+	}
+
+	void Update () {
+	PlayerPrefs.DeleteAll(); //once called the number on character selection and load it on the scene.
+	/all of the unwanted assets will be removed in the next scene
+	}
+}
